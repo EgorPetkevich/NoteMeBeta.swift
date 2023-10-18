@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F28AE8AF2ADFE3CB00A7C921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8AE2ADFE3CB00A7C921 /* AppDelegate.swift */; };
-		F28AE8B12ADFE3CB00A7C921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8B02ADFE3CB00A7C921 /* SceneDelegate.swift */; };
-		F28AE8B32ADFE3CB00A7C921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8B22ADFE3CB00A7C921 /* ViewController.swift */; };
-		F28AE8B62ADFE3CB00A7C921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28AE8B42ADFE3CB00A7C921 /* Main.storyboard */; };
+		F28AE8B32ADFE3CB00A7C921 /* PresentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8B22ADFE3CB00A7C921 /* PresentVC.swift */; };
 		F28AE8B82ADFE3CD00A7C921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28AE8B72ADFE3CD00A7C921 /* Assets.xcassets */; };
 		F28AE8BB2ADFE3CD00A7C921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28AE8B92ADFE3CD00A7C921 /* LaunchScreen.storyboard */; };
 		F28AE8C62ADFE3CD00A7C921 /* NoteMeBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8C52ADFE3CD00A7C921 /* NoteMeBetaTests.swift */; };
 		F28AE8D02ADFE3CD00A7C921 /* NoteMeBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8CF2ADFE3CD00A7C921 /* NoteMeBetaUITests.swift */; };
 		F28AE8D22ADFE3CD00A7C921 /* NoteMeBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8D12ADFE3CD00A7C921 /* NoteMeBetaUITestsLaunchTests.swift */; };
+		F28AE8E12AE039B200A7C921 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8E02AE039B200A7C921 /* ExtensionUIColor.swift */; };
+		F28AE8E32AE03E0A00A7C921 /* ExtentionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8E22AE03E0900A7C921 /* ExtentionUIView.swift */; };
+		F28AE8E52AE0859D00A7C921 /* ExtentionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AE8E42AE0859D00A7C921 /* ExtentionUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,7 @@
 /* Begin PBXFileReference section */
 		F28AE8AB2ADFE3CB00A7C921 /* NoteMeBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMeBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28AE8AE2ADFE3CB00A7C921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F28AE8B02ADFE3CB00A7C921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F28AE8B22ADFE3CB00A7C921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F28AE8B52ADFE3CB00A7C921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28AE8B22ADFE3CB00A7C921 /* PresentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentVC.swift; sourceTree = "<group>"; };
 		F28AE8B72ADFE3CD00A7C921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F28AE8BA2ADFE3CD00A7C921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F28AE8BC2ADFE3CD00A7C921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		F28AE8CB2ADFE3CD00A7C921 /* NoteMeBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteMeBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28AE8CF2ADFE3CD00A7C921 /* NoteMeBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMeBetaUITests.swift; sourceTree = "<group>"; };
 		F28AE8D12ADFE3CD00A7C921 /* NoteMeBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMeBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F28AE8E02AE039B200A7C921 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		F28AE8E22AE03E0900A7C921 /* ExtentionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIView.swift; sourceTree = "<group>"; };
+		F28AE8E42AE0859D00A7C921 /* ExtentionUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F28AE8AE2ADFE3CB00A7C921 /* AppDelegate.swift */,
-				F28AE8B02ADFE3CB00A7C921 /* SceneDelegate.swift */,
-				F28AE8B22ADFE3CB00A7C921 /* ViewController.swift */,
-				F28AE8B42ADFE3CB00A7C921 /* Main.storyboard */,
+				F28AE8B22ADFE3CB00A7C921 /* PresentVC.swift */,
+				F28AE8E22AE03E0900A7C921 /* ExtentionUIView.swift */,
+				F28AE8E42AE0859D00A7C921 /* ExtentionUIButton.swift */,
+				F28AE8E02AE039B200A7C921 /* ExtensionUIColor.swift */,
 				F28AE8B72ADFE3CD00A7C921 /* Assets.xcassets */,
 				F28AE8B92ADFE3CD00A7C921 /* LaunchScreen.storyboard */,
 				F28AE8BC2ADFE3CD00A7C921 /* Info.plist */,
@@ -233,7 +236,6 @@
 			files = (
 				F28AE8BB2ADFE3CD00A7C921 /* LaunchScreen.storyboard in Resources */,
 				F28AE8B82ADFE3CD00A7C921 /* Assets.xcassets in Resources */,
-				F28AE8B62ADFE3CB00A7C921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28AE8B32ADFE3CB00A7C921 /* ViewController.swift in Sources */,
+				F28AE8B32ADFE3CB00A7C921 /* PresentVC.swift in Sources */,
+				F28AE8E52AE0859D00A7C921 /* ExtentionUIButton.swift in Sources */,
+				F28AE8E12AE039B200A7C921 /* ExtensionUIColor.swift in Sources */,
 				F28AE8AF2ADFE3CB00A7C921 /* AppDelegate.swift in Sources */,
-				F28AE8B12ADFE3CB00A7C921 /* SceneDelegate.swift in Sources */,
+				F28AE8E32AE03E0A00A7C921 /* ExtentionUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F28AE8B42ADFE3CB00A7C921 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F28AE8B52ADFE3CB00A7C921 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F28AE8B92ADFE3CD00A7C921 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +443,6 @@
 				INFOPLIST_FILE = NoteMeBeta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,9 +452,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NoteMeBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,7 +473,6 @@
 				INFOPLIST_FILE = NoteMeBeta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,9 +482,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NoteMeBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
